@@ -28,9 +28,9 @@ Time complexity for
 
 ## Verify Trie
 The application exposed few the api's to add, remove words, get suggestions etc.
-- You can use the `swagger-ui` to make call to the api's or make `curl` request to the api's exposed.
+- You can use the `swagger-ui` to make call to the api's or perform `curl` request to the api's exposed.
 
-###Swagger
+### Swagger
 - To access Swagger-ui, once the application is up and running, go to browser and make a request to below url
 ```
       http://127.0.0.1:8081/swagger-ui.html
