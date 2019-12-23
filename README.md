@@ -46,4 +46,8 @@ The application exposed few the api's to add, remove words, get suggestions etc.
 6. <b>PUT</b>      /trie/insert/list            - insert all the words in the list to trie. Expects a list of string in request body e.g  <i>["test", "trie", "api"]</i>
 7. <b>DELETE</b>   /trie/delete/{word}          - remove `word` from trie. 
 </pre>
+
+### Port Used 
+The appication is configured to run on port **8081** which can be changed by modifying **server.port** in application.properties 
+
 ## Implementation Class File
