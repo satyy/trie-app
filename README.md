@@ -38,7 +38,7 @@ The application exposed few the api's to add, remove words, get suggestions etc.
 
 ### Endpoints exposed
 <pre>
-1. **GET**   /trie/empty                   - check if the trie is empty. 
+1. <b>GET</b>    /trie/empty                   - check if the trie is empty. 
 2. **GET**    /trie/contain/{word}          - check if the `word` is present in trie.
 3. **GET**    /trie/all                     - get all the words in the trie.
 4. **GET**    /trie/suggestion/{prefix}     - get suggestion list for words starting with given `prefix` in trie.
