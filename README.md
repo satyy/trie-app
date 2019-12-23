@@ -43,7 +43,7 @@ The application exposed few the api's to add, remove words, get suggestions etc.
 3. <b>GET</b>      /trie/all                    - get all the words in the trie.
 4. <b>GET</b>      /trie/suggestion/{prefix}    - get suggestion list for words starting with given `prefix` in trie.
 5. <b>PUT</b>      /trie/insert/{word}          - insert the `word` in the trie.
-6. <b>PUT</b>      /trie/insert/list            - insert a list of words in trie at once. Expects a list of string in request body                                                         e.g  <i>["test", "trie", "api"]</i>
+6. <b>PUT</b>      /trie/insert/list            - insert a list of words in trie at once. Expects a list of string in request body e.g  <i>["test", "trie", "api"]</i>
 7. <b>DELETE</b>   /trie/delete/{word}          - remove `word` from trie. 
 </pre>
 ## Implementation Class File
