@@ -38,12 +38,12 @@ The application exposed few the api's to add, remove words, get suggestions etc.
 
 ### Endpoints exposed
 ```
-1. *GET*    /trie/empty                   - check if the trie is empty. 
-2. *GET*    /trie/contain/{word}          - check if the `word` is present in trie.
-3. *GET*    /trie/all                     - get all the words in the trie.
-4. *GET*    /trie/suggestion/{prefix}     - get suggestion list for words starting with given `prefix` in trie.
-5. *PUT*    /trie/insert/{word}           - insert the `word` in the trie.
-6. *PUT*    /trie/insert/list             - insert a list of words in trie at once. Expects a list of string in request body.
-7. *DELETE* /trie/delete/{word}           - remove `word` from trie. 
+1. **GET**   /trie/empty                   - check if the trie is empty. 
+2. **GET**    /trie/contain/{word}          - check if the `word` is present in trie.
+3. **GET**    /trie/all                     - get all the words in the trie.
+4. **GET**    /trie/suggestion/{prefix}     - get suggestion list for words starting with given `prefix` in trie.
+5. **PUT**    /trie/insert/{word}           - insert the `word` in the trie.
+6. **PUT**    /trie/insert/list             - insert a list of words in trie at once. Expects a list of string in request body.
+7. **DELETE** /trie/delete/{word}           - remove `word` from trie. 
 ```
 ## Implementation Class File
