@@ -20,17 +20,15 @@ Time complexity for
              k is size of search key.
  ````
                 
-
 ## Build and Run
 1. Checkout repo.
 2. run cmd `sh run-app.sh`
-
 
 ## Verify Trie
 The application exposed few the api's to add, remove words, get suggestions etc.
 - You can use the `swagger-ui` to make call to the api's or perform `curl` request to the api's exposed.
 
-### Swagger
+### Swagger-Ui
 - To access Swagger-ui, once the application is up and running, go to browser and make a request to below url
 ```
 http://127.0.0.1:8081/swagger-ui.html
@@ -54,4 +52,4 @@ The appication is configured to run on port **8081** which can be changed by mod
 
 ## Implementation Class File
 
-**Trie.java** present at path `src/main/java/com/satyy/trie/datastructure`
+**Trie.java** at `src/main/java/com/satyy/trie/datastructure`
