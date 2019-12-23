@@ -33,7 +33,7 @@ The application exposed few the api's to add, remove words, get suggestions etc.
 ### Swagger
 - To access Swagger-ui, once the application is up and running, go to browser and make a request to below url
 ```
-      http://127.0.0.1:8081/swagger-ui.html
+http://127.0.0.1:8081/swagger-ui.html
 - if running on the same system or else, change the ip addess in the url.
 ``` 
    This opens the swagger-ui page on the web browser from which you would be able to access all the exposed api's and make call to it. 
